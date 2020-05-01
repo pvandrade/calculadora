@@ -23,7 +23,6 @@ public class Display extends JPanel implements MemoriaObservador {
 		label = new JLabel(Memoria.getInstancia().getTextoAtual());
 		label.setForeground(Color.LIGHT_GRAY);
 		label.setFont(new Font("courier", Font.PLAIN, 30));
-		
 		setLayout(new FlowLayout(FlowLayout.RIGHT, 10, 25));
 		
 		add(label);
